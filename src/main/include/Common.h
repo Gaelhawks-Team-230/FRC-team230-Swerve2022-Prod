@@ -1,0 +1,23 @@
+#ifndef SRC_COMMON_H_
+#define SRC_COMMON_H_
+
+#define LOOPTIME (0.01)
+
+// CAN device IDs
+#define FRONT_LEFT_DRIVE (3)
+#define FRONT_LEFT_STEER (7)
+#define FRONT_LEFT_ABSOLUTE_ENCODER (11)
+
+#define FRONT_RIGHT_DRIVE (0)
+#define FRONT_RIGHT_STEER (4)
+#define FRONT_RIGHT_ABSOLUTE_ENCODER (8)
+
+#define BACK_LEFT_DRIVE (2)
+#define BACK_LEFT_STEER (6)
+#define BACK_LEFT_ABSOLUTE_ENCODER (10)
+
+#define BACK_RIGHT_DRIVE (1)
+#define BACK_RIGHT_STEER (5)
+#define BACK_RIGHT_ABSOLUTE_ENCODER (9)
+
+#endif
